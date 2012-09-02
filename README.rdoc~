@@ -58,6 +58,7 @@ Generating comments controller
   *edited the comments/show.html.erb and comments_controller.rb
   refactoring:
   *rendering partials
-
+  created _comment.html.erb and _form.html.erb
+  edited the model post.rb
 
 
