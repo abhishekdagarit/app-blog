@@ -1,0 +1,38 @@
+= Simple Blog Application
+
+This application is a simple Blog application made using Rails 3. 
+
+== Environment 
+* ruby - 1.9.2
+* rails - 3.2.3
+
+== Features 
+* Login 
+* Add posts
+* Add comments
+* Add Tags
+
+I used the rvm. But it wasnt working properly on my system so I used the following command to make it work:
+  [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
+== Other projects
+
+For more projects please visit:
+https://github.com/jst1lyf
+
+== List of commands used
+* ruby -v
+* rails -v
+* rails new blog
+* cd blog
+* rails server
+* rake db:create
+
+Initializing git and putting stuff on git
+* git init
+* git add .
+* git commit -m "Generated a new rails 3 application"
+*  git remote add origin https://github.com/abhishekdagarit/app-blog.git
+* git push -u origin master
+
+
