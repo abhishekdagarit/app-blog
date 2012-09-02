@@ -18,6 +18,8 @@ For more projects please visit:
 https://github.com/abhishekdagarit
 
 == List of commands used
+
+Generating the Rails 3 application
   ruby -v
   rails -v
   rails new blog
@@ -31,5 +33,32 @@ Initializing git and putting stuff on git
   git commit -m "Generated a new rails 3 application"
   git remote add origin https://github.com/abhishekdagarit/app-blog.git
   git push -u origin master
+
+Generating a home controller and creating the index action
+  rails g controller home index
+  *Make changes to app/views/home/index.html file
+  rm public/index.html
+  *provide root to the index file
+  
+Creating the posts resource using scaffold
+  rails g scaffold Post name:string title:string context:text
+  rake db:migrate
+  *add a link for blog
+  rails server
+  *adding validations for Post model
+  *add background in application.html.erb
+
+Creating a second scaffold 
+  rails generate model Comment commenter:string body:text post:references
+  rake db:migrate
+  *adding a route for comments
+  
+Generating comments controller
+  rails generate controller Comments
+  *edited the comments/show.html.erb and comments_controller.rb
+  refactoring:
+  *rendering partials
+  created _comment.html.erb and _form.html.erb
+  edited the model post.rb
 
 
