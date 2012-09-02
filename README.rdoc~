@@ -16,7 +16,11 @@ This application is a simple Blog application made using Rails 3.
 For more projects please visit:
 https://github.com/abhishekdagarit
 
-== List of commands used
+== Reference
+
+http://guides.rubyonrails.org/getting_started.html
+
+== Sequence of commands used
 
 Generating the Rails 3 application
   ruby -v

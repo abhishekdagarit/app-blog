@@ -3,8 +3,8 @@
 This application is a simple Blog application made using Rails 3. 
 
 == Environment 
-* ruby - 1.9.2
-* rails - 3.2.3
+* ruby - 1.9.3
+* rails - 3.1.0
 
 == Features 
 * Login 
